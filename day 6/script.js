@@ -2,13 +2,13 @@ function loadusers() {
 
 }
 
-const userlist = document.getElementsBy("user-list");
+const userlist = document.getElementById("user-list")
 
 userlist.innerHTML = "loading users...";
 
 
 
-fetch("https://jsonplaceholder.typicode.com/users")
+  fetch("https://jsonplaceholder.typicode.com/users")
 .then(res => {
     if (!res.ok) {
         throw new Error("Network error");
