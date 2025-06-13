@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<head lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>horizontal navbar logo  </title>
-   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
- 
-           
-<style>
+
        *{
         margin: auto;
         padding: 0%;
@@ -25,7 +16,7 @@
         }
 
         .logo-icon {
-            color: red;
+            color:red;
         }
         body{
 
@@ -35,7 +26,7 @@
             background-color:black;
             color: white;
         }
-        
+       
     
     nav{ background-color:black;
         height: 100px;
@@ -65,8 +56,8 @@ nav u1 li:hover  .material-symbols-outlined{
 }
 .search-box {
     
-    flex-grow: 1;
-    display: flex;
+    flex-grow: 2;
+    display:flex;
 }
 
 .search-box input {
@@ -79,42 +70,16 @@ font-size 14px;
 
 }
 
-
-</style>
-</head>
-<body>
-
-       <!--navbar-->
-    <nav>
-  <u1>
+.sidebar u1 li { 
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
     
-      
-     
-      <li><span class="material-symbols-outlined logo-icon">smart_display</span></li>
-       <li><span class="material-symbols-outlined">menu</span></li>
-      <li><span class="material-symbols-outlined">tv</span></li>
-
-      <!-- Search bar -->
-      <li class="search-box">
-        <input type="text" placeholder="Search" />
-      </li>
-
-      <li><span class="material-symbols-outlined">mic</span></li>
-      
-      <li><span class="material-symbols-outlined">notifications</span></li>
-      <span class="material-symbols-outlined">account_circle</span></li>
    
-     </u1>
-    </nav>
-                 
-
-
-
-<!--sidebar-->
-<article></article>
-
     
+   
+}
 
-
-</body>
-</html>
+.sidebar ul li:hover .material-symbols-outlined {
+    background-color: blue;
+}
