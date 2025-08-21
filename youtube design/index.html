@@ -5,15 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>horizontal navbar logo  </title>
    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-      <link rel="stylesheet" 
-         href="style.css"> 
-         <a href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"></a>
-            <link rel="stylesheet"
-            href="style.css">
+ 
+           
+<style>
+       *{
+        margin: auto;
+        padding: 0%;
+        box-sizing: border-box;}
+        .material-symbols-outlined
+         {
+            font-variation-settings: 
+            'FILL'0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48,
+            'font-size' 30px,
+            'color' white,
+    
+        }
+
+        .logo-icon {
+            color: red;
+        }
+        body{
+
+            margin: 0;
+            padding: 0;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:black;
+            color: white;
+        }
         
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    nav{ background-color:black;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    nav u1{
+        display: flex;
+        list-style: none;
+        justify-content:space-around;
+        width: 100%;
+        padding: 0;
+        gap: 20px;
+        align-items: center;
+    
+    }
+
+     nav u1 li{
+        cursor: pointer;
+}
+
+nav u1 li:hover  .material-symbols-outlined{
+   color: red;
+}
+.search-box {
+    
+    flex-grow: 1;
+    display: flex;
+}
+
+.search-box input {
+width:100%;
+padding: 8px 12px;
+border: none;
+border-radius: 20px;
+outline: none
+font-size 14px;
+
+}
 
 
+</style>
 </head>
 <body>
 
@@ -21,51 +88,32 @@
     <nav>
   <u1>
     
-    
-     </div>
-   
-        
- <!--header-->
-
-          <li><span class="material-symbols-outlined">menu</span></li>
-         <li><span class="material-symbols-outlined">home</span></li>
-         <li><span class="material-symbols-outlined">tv</span></li>
-
       
+     
+      <li><span class="material-symbols-outlined logo-icon">smart_display</span></li>
+       <li><span class="material-symbols-outlined">menu</span></li>
+      <li><span class="material-symbols-outlined">tv</span></li>
+
+      <!-- Search bar -->
       <li class="search-box">
         <input type="text" placeholder="Search" />
       </li>
-<li><span class="material-symbols-outlined">search</span></li>
+
       <li><span class="material-symbols-outlined">mic</span></li>
       
       <li><span class="material-symbols-outlined">notifications</span></li>
       <span class="material-symbols-outlined">account_circle</span></li>
    
-
-      
      </u1>
     </nav>
-              
+                 
+
+
+
 <!--sidebar-->
-<div class="sidebar">
-<u1>
-
-<li><i class="material-icons">subscriptions</i> subscription</li>
-<li><i class="material-icons">history</i>history</li>
-<li><i class="material-icons">settings</i>settings</li>
-<li><i class="material-icons">help</i>help</li>
-<li><i class="material-icons">playlist_play</i>playlist</li>
-<li><i class="material-icons">thumb_up</i>liked videos</li>
-<li><i class="material-icons">watch_later</i>watch later</li>
-<li><i class="material-icons">video_library</i>library</li>
-</u1>
-</div>
-
-<!--main content-->
-
-
-  
 <article></article>
+
+    
 
 
 </body>
